@@ -3,6 +3,6 @@
 	"name": "my-workspace",
 	"scripts": {
 		"ws-test-direct": "echo ws-test success in my-workspace",
-		"ws-test-proxy": "yarn ws-test-local"
+		"ws-test-proxy": "yarn ws-test-direct"
 	}
 }
