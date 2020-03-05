@@ -1,0 +1,12 @@
+{
+	"private": true,
+	"scripts": {
+		"test-direct": "echo test success in root package",
+		"test-proxy": "yarn test-direct",
+		"test-ws-direct": "yarn workspace my-workspace run ws-test-direct",
+		"test-ws-proxy": "yarn workspace my-workspace run ws-test-proxy"
+	},
+	"workspaces": [
+		"my-workspace"
+	]
+}

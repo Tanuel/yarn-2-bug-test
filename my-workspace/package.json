@@ -1,0 +1,8 @@
+{
+	"version": "0.0.0",
+	"name": "my-workspace",
+	"scripts": {
+		"ws-test-direct": "echo ws-test success in my-workspace",
+		"ws-test-proxy": "yarn ws-test-local"
+	}
+}
